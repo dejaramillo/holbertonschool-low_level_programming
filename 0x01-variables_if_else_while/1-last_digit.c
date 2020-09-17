@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
-#include<string.h>
+#include <string.h>
 
 /**
  * main - Print a string using printf
