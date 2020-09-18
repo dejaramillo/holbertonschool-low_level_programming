@@ -25,7 +25,6 @@ n = n + count;
 count++;
 } while (i <= 1);
 i--;
-printf(" este es %d\n", count);
 }
 }
 putchar('\n');
