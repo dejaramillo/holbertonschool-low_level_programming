@@ -1,11 +1,9 @@
 #include <stdio.h>
 /**
- * 
- * main - alphabet lowercase
- * 
- * retrun - 0
+ * main - Print a string using printf
+ *
+ * Return: loop
  */
-
 int main(void)
 {
 char letter = 97;
