@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * main - 09-29
- * Return: retunr 0
+ *main-comb3
+ *Return:0
  */
 
 int main(void)
