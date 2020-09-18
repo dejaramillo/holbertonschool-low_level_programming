@@ -2,7 +2,7 @@
 /**
  * main - print tthe numbers with putchar
  *
- * return: loops for
+ * Return: loops for
  */
 
 int main(void)
