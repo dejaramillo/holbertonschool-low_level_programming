@@ -19,3 +19,22 @@ _putchar('n');
 _putchar('\n');
 return (0);
 }
+#include "holberton.h"
+/**
+ * print_alphabet - print alphabet whit f or loop
+ */
+
+int main(void)
+{
+print_alphabet();
+return (0);
+}
+void print_alphabet()
+{
+int letter;
+for (letter = 'a'; letter <= 'z'; letter++)
+{
+_putchar(letter);
+_putchar('\n');
+}
+}
