@@ -1,9 +1,10 @@
 #include "holberton.h"
 /**
- * print - print alphabet x 10 with loop for
+ * print_alphabet_x10 - Print x10 alpha
+ * Return: 0
  */
 
-void print_alphabet_x10()
+void print_alphabet_x10(void)
 {
 int x10, letter;
 for (x10 = 0; x10 <= 9; x10++)
