@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * prit_alphabet - print alphabet whit portotype in main function
+ * print_alphabet - print alphabet whit portotype in main function
  */
 
 void print_alphabet(void)
