@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * times_tables - print the number in list of 0 and 9
+ * times_table - print the number in list of 0 and 9
  * Return: void
  */
 
