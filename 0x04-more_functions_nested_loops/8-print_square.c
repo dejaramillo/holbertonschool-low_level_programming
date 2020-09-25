@@ -2,6 +2,7 @@
 /**
  * print_square - print the square
  * @n: entry point
+ * row and colum: two variables for int
  * Return: void
  */
 
