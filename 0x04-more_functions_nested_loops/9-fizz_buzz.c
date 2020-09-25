@@ -1,13 +1,14 @@
 #include <stdio.h>
 /**
  *main - print fizz buzz in a number list
+ *
  *Return: 0 (success)
  */
 
 int main(void)
 {
-	int num;
-	for(num = 1; num <= 100; ++num)
+int num;
+	for (num = 0; num <= 100; num++)
 	{
 		if (num % 15 == 0)
 		{
@@ -25,7 +26,10 @@ int main(void)
 		{
 			printf("%d", num);
 		}
-		printf(" ");
+		if (num != 100)
+		{
+			printf(" ");
+		}
 	}
 	putchar(10);
 	return (0);
