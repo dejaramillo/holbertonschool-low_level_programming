@@ -8,8 +8,8 @@
 void rev_string(char *s)
 {
 int i, reverse;
-	char *lastchar, ch;
-	lastchar = s;
+char *lastchar, ch;
+lastchar = s;
 	for (i = 0; *lastchar != '\0'; i++)
 	{
 		lastchar++;
