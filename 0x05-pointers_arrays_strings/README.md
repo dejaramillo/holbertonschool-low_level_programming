@@ -1,0 +1,1 @@
+it flile is for print pointer and arrays
