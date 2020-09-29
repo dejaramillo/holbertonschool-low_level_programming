@@ -7,11 +7,11 @@
 
 void print_rev(char *s)
 {
-	int i, reverse;
+int i, reverse;
 	for (i = 0; s[i] != '\0'; i++)
 	{
 	}
-	for (reverse = i; reverse >= 0; reverse--)
+	for (reverse = i - 1; reverse >= 0; reverse--)
 	{
 		_putchar(s[reverse]);
 	}
