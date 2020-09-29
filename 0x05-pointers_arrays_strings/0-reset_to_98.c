@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- *reset_to_98 - print the pointer 
+ *reset_to_98 - print the pointer
  *@n:entry point
  *Return: void
  */
