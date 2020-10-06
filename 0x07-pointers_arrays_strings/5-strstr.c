@@ -27,6 +27,11 @@ char *p = '\0';
 			p = &haystack[i];
 			return (p);
 		}
+		if (needle[j] == ' ')
+		{
+			p = &haystack[0];
+			return (p);
+		}
 	}
 	return (p);
 }
