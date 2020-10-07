@@ -1,4 +1,5 @@
 #include "holberton.h"
+#include "stdio.h"
 /**
  * print_diagsums - Function that prints the sum of the two diagonals of matrix
  *@a: first entry point
@@ -8,18 +9,18 @@
 
 void print_diagsums(int *a, int size)
 {
-int i, result1, result2;
+long int i, result1, result2;
 	for (i = 0; i < (size * size); i++)
 	{
 		if (i % (size + 1) == 0)
 		{
-			result1 += (a + i);
+			result1 += *(a + i);
 		}
 
 		if (i % (size - 1) == 0 && i != 0 && i < size * size - 1)
 		{
-			result2 += (a + i);
+			result2 += *(a + i);
 		}
 	}
-	printf("%ld, %ld\n", sum1, sum2);
+	printf("%ld, %ld\n", result1, result2);
 }
