@@ -5,7 +5,7 @@
  *@argv: Array of strings
  *Return: 0(success)
  */
-sy
+
 int main(int argc, char *argv[])
 {
 	printf("%s\n", argv[argc - 1]);
