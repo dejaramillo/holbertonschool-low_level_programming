@@ -1,0 +1,13 @@
+#ifndef VARIADIC_FUNCTIONS_H_
+#define VARIADIC_FUNCTIONS_H_
+#include <stdarg.h>
+
+typedef struct form
+{
+	char *a;
+	void (*f)(va_list);
+} fr;
+
+int sum_them_all(const unsigned int n, ...);
+
+#endif
