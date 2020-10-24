@@ -2,9 +2,9 @@
 #define VARIADIC_FUNCTIONS_H_
 #include <stdarg.h>
 /**
- *struct - struct form
+ *struct form - pointer for print all
  *
- *@op: operator
+ *@a: operator
  *@f: pointer function
  */
 
